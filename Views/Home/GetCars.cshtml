@@ -1,0 +1,26 @@
+﻿@model List<Cars>
+@{
+    ViewData["Title"] = "Inventory";
+}
+<div class="text-center">
+    <h1 class="display-4">GC Motors</h1>
+    <h2>Inventory</h2>
+    <table style="width:25%">
+        <tr>
+            <th>Make</th>
+            <th>Model</th>
+            <th>Year</th>
+            <th>Color</th>
+        </tr>
+        @foreach (Cars car in Model)
+        {
+            <tr>
+                <td>@car.Make</td>
+                <td>@car.Model</td>
+                <td>@car.Year</td>
+                <td>@car.Year</td>
+            </tr>
+        }
+    </table>
+</div>
+<br />

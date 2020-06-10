@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarApi5", "CarApi5.csproj", "{B5ADD20B-A835-4B5D-B055-63B409CC77FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B5ADD20B-A835-4B5D-B055-63B409CC77FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5ADD20B-A835-4B5D-B055-63B409CC77FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5ADD20B-A835-4B5D-B055-63B409CC77FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5ADD20B-A835-4B5D-B055-63B409CC77FA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {920307D8-86BC-47C5-8BBF-83D36886AB4C}
+	EndGlobalSection
+EndGlobal
